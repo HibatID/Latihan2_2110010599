@@ -4,9 +4,6 @@ public class Mahasiswa {
 
 private String npm, nama, prodi;
 
-public String getDetail(){
-    return npm + nama + prodi;
-}
 
 public Mahasiswa(String npm, String nama, String prodi){
     this.npm = npm;
@@ -38,4 +35,11 @@ public Mahasiswa(String npm, String nama, String prodi){
         this.prodi = prodi;
     }
 
+    public String getDetail(){
+    System.out.println("NPM : "+ npm);
+    System.out.println("Nama : "+ nama);
+    System.out.println("Prodi : "+ prodi);
+    return null;
+}
+    
 }
